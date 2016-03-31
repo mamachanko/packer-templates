@@ -5,7 +5,7 @@
     "disk_size": "40000",
     "headless": "false",
     "memory": "512",
-    "mirror": "http://releases.ubuntu.com",
+    "mirror": "http://releases.ubuntu.com"
   },
   "builders": [{
     "type": "virtualbox-iso",
