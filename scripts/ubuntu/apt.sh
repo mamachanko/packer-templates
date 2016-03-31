@@ -9,4 +9,5 @@ if [ "$ubuntu_version" == '12.04' ]; then
   sudo rm -rf /var/lib/apt/lists
 fi
 
-sudo apt-get update
+sudo apt-get -y update
+sudo apt-get -y upgrade
